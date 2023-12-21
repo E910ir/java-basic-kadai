@@ -11,11 +11,8 @@ public class Prime_Chapter11 {
 		}
 		
 		for( int i = 2; i < isPrime.length; i++ ) {
-			
 			if( isPrime[i] ) {
-				
 				for ( int j = 2 * i; j < isPrime.length; j += i ) {
-					
 					isPrime[j] = false;
 				}
 			}
